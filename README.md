@@ -2,34 +2,17 @@
 
 Bonne pratique utilisé : 
  - mise en place d'un dépôt git
+- Respect du nommage de variable (CamelCase)
+- Test des classes avec Exceptions levées si erreur
+- Code commenté aux endroits necessaire à la bonne compréhension du code
    
 
 
 Point manquant :
+- Commit sur git message erreur au push
+- Sonarlint non utilisé par manque de temps 
+
 
 Conclusion:
-int ageMax;
-		int ageMin;
-		
-		String libelle;
-		
-		
-		public String initialisation(int val, int val2, String val3 ) {
-			
-			
-			String retour = val3 + val.toString() + + val2.toString();
-			
-	        System.out.println("Initialisation : " + retour );
-
-			return retour;						
-		}
-		
-		public boolean correspond(int age) {
-			
-			if ((age <= this.ageMax) && (age >= this.ageMin)) {
-				return true;
-			}else {
-				return false;				
-			}
-		}
-		
+Le projet possède une interface graphique. 
+des méthodes n'ont pas été implémenter.
