@@ -16,3 +16,4 @@ Point manquant :
 Conclusion:
 Le projet possède une interface graphique. 
 des méthodes n'ont pas été implémenter.
+Pour lancer le projet lancer le main et l'ihm apparait les deux classes personnes et Categorie son dans le dossier Model 
